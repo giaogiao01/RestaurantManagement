@@ -1,0 +1,85 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 30, 2021, 7:52:55 PM
+    Author     : Lenovo
+*/
+
+*{
+    -fx-font-family: Tahoma;  
+}
+
+GridPane{
+    -fx-background-color: lightblue;
+    -fx-padding: 15;
+}
+label{ 
+    -fx-font-size: 16;
+    -fx-text-fill: darkblue;
+    -fx-padding-left: 10;
+}
+Label.SubDV{
+    -fx-font-size: 16;
+    -fx-text-fill: #ff6633;
+    -fx-padding-left: 10;
+}
+Label.SubMes{
+    -fx-font-size: 20;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+Text.sub{
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-fill: red;
+    -fx-stroke-width: 2;
+    -fx-stroke: darkblue;
+}
+Text.SubMes{
+    -fx-font-size: 16;
+    -fx-fill: green;
+    -fx-font-weight: bold;
+}
+Button.btr{
+    -fx-background-color: blueviolet;
+    -fx-text-fill: white;
+    -fx-min-width: 100;
+    -fx-font-size: 16;
+}
+
+VBox{
+    -fx-Background-color: lightblue;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-alignment: CENTER;
+}
+TextField.Sub{
+    -fx-pref-height: 25;
+}
+TextField.subDN{
+    -fx-pref-height: 25;
+}
+TextField.Find{
+    -fx-pref-height: 35;
+}
+TextField.null{
+    -fx-border-color: red;
+}
+PasswordField{
+    -fx-pref-height: 25;
+}
+HBox, VBox{
+    -fx-spacing: 10;
+    -fx-alignment: CENTER;
+}
+HBox label.SubDK{
+    -fx-font-size: 20;
+    -fx-text-fill: darkblue;
+}
+ComboBox {
+    -fx-pref-height: 25;
+    -fx-text-alignment: center;
+}
